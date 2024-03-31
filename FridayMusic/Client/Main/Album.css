@@ -1,0 +1,34 @@
+
+
+.album-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.album-detail {
+    width: 70%;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.album-detail img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.album-info {
+    padding: 20px;
+}
+
+.song-list {
+    list-style: none;
+    padding: 0;
+}
+
+.song-list li {
+    margin-bottom: 10px;
+}

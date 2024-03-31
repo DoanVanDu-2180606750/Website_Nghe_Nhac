@@ -1,0 +1,186 @@
+*{
+    margin: 12px;
+    padding: 0px;
+    background-color: #131722;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+    background-color: #131722;
+}
+
+header {
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    background: url(image/Logo.png) no-repeat;
+    background-position: left;
+}
+
+h1 {
+    background-color: transparent;
+    font-size: 300%;
+}
+
+h2 {
+    color: #fff;
+}
+
+h3 {
+    background-color: transparent;
+}
+
+e {
+    background-color: #fff;
+    font-size: 15px;
+}
+
+nav {
+    background-color: #A7FF38;
+    padding: 16px;
+    text-align: center;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+    background-color: #A7FF38;
+}
+
+section {
+    padding: 20px;
+}
+
+.featured-album {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: #fff;
+}
+
+.album {
+    width: 30%;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}x
+
+.album img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    background-color: transparent;
+}
+
+.album-info {
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+footer {
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.genre-list {
+    list-style: none;
+    padding: 0;
+}
+
+.genre-list li {
+    margin-bottom: 10px;
+}
+
+.genre-list a {
+    display: block;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.genre-list a:hover {
+    background-color: #555;
+}
+
+.album-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.album-detail {
+    width: 70%;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.album-detail img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.album-info {
+    padding: 20px;
+}
+
+.song-list {
+    list-style: none;
+    padding: 0;
+}
+
+.song-list li {
+    margin-bottom: 10px;
+}
+
+/* phan phat nhac */
+
+.music-player-section {
+    padding: 0px;
+    text-align: center;
+}
+
+.music-player {
+    width: 70%;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.album-cover {
+    width: 100px;
+    height: 100px;
+    background-color: #ddd; 
+    margin-right: 20px;
+}
+
+.song-info {
+    text-align: left;
+    background-color: #fff;
+}
+
+audio {
+    background-color: #fff;
+    width: 60%;
+}
